@@ -11,7 +11,7 @@ import com.marcosbitencourt.workshopmongo.domain.Post;
 import com.marcosbitencourt.workshopmongo.services.PostService;
 
 @RestController
-@RequestMapping(value = "/posts")
+@RequestMapping(value ="/posts")
 public class PostResource {
 
 	@Autowired
